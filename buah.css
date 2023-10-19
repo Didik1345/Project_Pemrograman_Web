@@ -1,0 +1,216 @@
+<style>
+*,html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: blueviolet;
+  margin: 0%;
+ 
+
+}
+.header{
+    font-family: serif;
+    font-size: medium;
+    color: antiquewhite;
+	margin-left: 50px;
+}
+
+
+nav {
+    position: fixed ;
+    top: 0;
+	background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    width: 1283px;
+	
+
+}
+nav ul{
+    gap: 1rem;
+    display: flex;
+    list-style: none;
+    align-items: center;
+	padding: 5px 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-family:  serif;
+    color: antiquewhite;
+    font-weight: 600;
+	padding :5px 10px
+	
+}
+.kosong{
+	background-color: white;
+	width: 1283px ;
+	font-weight: 600;
+	padding: 30px;
+	font-size: large;
+    margin-top: 100px;
+}
+.header:hover {
+    background-color: white;
+    color: black;
+    border-radius: 2px;
+    }
+    nav ul li a:hover{
+        background-color: white;
+        color: black;
+        border-radius: 3px;
+       padding 5px 3px;
+    }
+    
+    
+    .container #header{
+        min-height: 80px;
+        background-color: #91D18B;
+        color:black;
+    }
+    .container #nav{
+        height: 60px;
+        background-color: #6EBFB5;
+        color:black;
+    }
+    .container #content{
+        grid-area: content;
+        background-color: burlywood;
+        display: flex;
+        height: 500px;
+        display: grid;
+        grid-template-areas: 'cel1 cel2 cel3';
+
+    }
+    .container #content #cel1{
+        background-color: #8BCDCD;
+        grid-area: cel1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: auto;
+    }
+    #content #cel1 #left1{
+        background-color:  #01676B;
+        width: 70%;
+        height: 90px;
+        color:black;
+    }
+    #content #cel1 #left2{
+        width: 70%;
+        background-color:  #01676B;
+        height: 90px;
+        text-align: center;
+        color:black;
+    }
+    #content #cel1 #left3{
+        width: 70%;
+        background-color: #01676B;
+        height: 90px;
+        text-align: center;
+        color:black;
+    }
+    .container #content #cel2{
+        background-color: #565D47;
+        grid-area: cel2;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #content #cel2 #center1{
+        background-color: #50BDA1;
+        width: 40%;
+        height: 250px;
+        position: relative;
+        margin-left: 10px;
+        margin-right: 5px;
+        color:black;
+    }
+    #content #cel2 #center2{
+        width: 40%;
+        background-color: #50BDA1;
+        height: 250px;
+        text-align: center;
+        margin-left: 5px;
+        margin-right: 5px;
+        color:black;
+
+    }
+    #content #cel2 #center3{
+        width: 40%;
+        background-color: #50BDA1;
+        height: 250px;
+        text-align: center;
+         margin-left: 5px;
+        margin-right: 10px;
+        color:black;
+    }
+     .container #content #cel3{
+        background-color: #71A95A;
+        grid-area: cel3;
+        display: flex;
+        flex-direction:column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+       
+    }
+    #content #cel3 #right1{
+        width: 150px;
+       background-color: #7F78D2;
+        height: 150px;
+        text-align: center;
+        color:black;
+
+    }
+    #content #cel3 #right2{
+        width: 150px;
+      background-color: #7F78D2;
+        height: 150px;
+        text-align: center;
+        color:black;
+       
+    }
+    .container #Footer{
+        background-color:rgb(14, 191, 197);
+        height: 70px;
+        color: aliceblue;
+    }
+    .container #Footer #Footer1{
+    background-color: #137083;
+    width: 207px;
+    height: 60px;
+    position: absolute;
+    margin-left: 0px;
+    margin-right: 20px;
+    display: inline-table;
+    color:black;
+    }
+    .container #Footer #Footer2{
+        background-color: #50BDA1;
+    width: 900px;
+    height: 60px;
+    position: relative;
+    margin-left: 300px;
+    margin-right: 0px;
+    display: inline-table;
+    color:black;
+
+    }
+    #in{
+        border-radius: 5px;
+        width: 50px;
+        margin-top: 10px;   
+    }
+    #cel2 #atur{
+        text-align: left;
+        font-family: sans-serif;
+    
+        
+    }
+</style>
